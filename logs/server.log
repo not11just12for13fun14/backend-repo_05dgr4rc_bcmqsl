@@ -1,0 +1,31 @@
+INFO:     Will watch for changes in these directories: ['/home/workspace']
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [158] using StatReload
+INFO:     Started server process [160]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     172.20.0.1:47520 - "GET /api/books HTTP/1.1" 200 OK
+INFO:     172.20.0.1:47520 - "GET /api/books HTTP/1.1" 200 OK
+INFO:     172.20.0.1:47534 - "HEAD / HTTP/1.1" 405 Method Not Allowed
+INFO:     172.20.0.1:47524 - "GET /api/books HTTP/1.1" 200 OK
+INFO:     172.20.0.1:47524 - "GET /api/books HTTP/1.1" 200 OK
+INFO:     172.20.0.1:35152 - "OPTIONS /api/books HTTP/1.1" 200 OK
+INFO:     172.20.0.1:35152 - "POST /api/books HTTP/1.1" 200 OK
+INFO:     172.20.0.1:35152 - "GET /api/books HTTP/1.1" 200 OK
+INFO:     172.20.0.1:35152 - "GET /api/chapters?book_id=691e9ffb36ac920589652fa0 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:35152 - "GET /api/collab/stream HTTP/1.1" 200 OK
+INFO:     172.20.0.1:58106 - "GET /api/chapters?book_id=691e9ffb36ac920589652fa0 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:58120 - "OPTIONS /api/chapters HTTP/1.1" 200 OK
+INFO:     172.20.0.1:58120 - "POST /api/chapters HTTP/1.1" 200 OK
+INFO:     172.20.0.1:58120 - "GET /api/chapters?book_id=691e9ffb36ac920589652fa0 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:58120 - "GET /api/chapters?book_id=691e9ffb36ac920589652fa0 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:58120 - "GET /api/collab/stream HTTP/1.1" 200 OK
+INFO:     172.20.0.1:36892 - "OPTIONS /api/translate HTTP/1.1" 200 OK
+INFO:     172.20.0.1:53000 - "POST /api/translate HTTP/1.1" 200 OK
+INFO:     172.20.0.1:53000 - "OPTIONS /api/chapters/691ea00336ac920589652fa1 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:53000 - "PATCH /api/chapters/691ea00336ac920589652fa1 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:53000 - "OPTIONS /api/collab/publish HTTP/1.1" 200 OK
+INFO:     172.20.0.1:53000 - "POST /api/collab/publish HTTP/1.1" 200 OK
+INFO:     172.20.0.1:53000 - "GET /api/chapters?book_id=691e9ffb36ac920589652fa0 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:49736 - "GET /api/books HTTP/1.1" 200 OK
+INFO:     172.20.0.1:49736 - "GET /api/books HTTP/1.1" 200 OK
